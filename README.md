@@ -66,3 +66,4 @@ Functionality
         The application uses Laravel Mail to send the weather report to the specified email address.
 
 Screenshots
+![Alt text](/images/1.png?raw=true "Optional Title")
