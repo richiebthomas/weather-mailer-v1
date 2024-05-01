@@ -1,10 +1,11 @@
 # Weather App
 
 This is a web application that retrieves weather data from the WeatherAPI.com and generates weather reports using the OpenAI API. Users can fetch weather details for a specific city, view the current weather conditions, and receive a detailed weather report via email.
-[![Watch the video](https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg)](https://www.youtube.com/embed/APOPm01BVrk)
 
-[<img src="https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/APOPm01BVrk)
+
+https://github.com/richiebthomas/weather-mailer-v1/assets/140655662/dc46fc82-ad1a-4aaf-984a-9f5bdd1ab6f9
+
+
 
 ## Setup
 
