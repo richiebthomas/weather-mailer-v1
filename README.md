@@ -1,6 +1,6 @@
 # Weather App
 
-This is a web application that retrieves weather data from the WeatherAPI.com and generates weather reports using the OpenAI API. Users can fetch weather details for a specific city, view the current weather conditions, and receive a detailed weather report via email.
+This is a web application developed in Laravel that retrieves weather data from the WeatherAPI.com and generates weather reports using the OpenAI API. Users can fetch weather details for a specific city, view the current weather conditions, and receive a detailed weather report via email.
 
 
 https://github.com/richiebthomas/weather-mailer-v1/assets/140655662/dc46fc82-ad1a-4aaf-984a-9f5bdd1ab6f9
