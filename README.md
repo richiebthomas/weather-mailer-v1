@@ -10,21 +10,17 @@ Follow these steps to set up the project locally:
 
    ```
    git clone https://github.com/your-username/your-repository.git
-
+   ```
     Install Dependencies:
-
-    bash
-
-cd your-repository
-composer install
-npm install
-
+```
+   cd your-repository
+   composer install
+   npm install
+```
 This command will install all the PHP and JavaScript dependencies required for the project. Additionally, you may need to install the Guzzle HTTP client library using Composer:
-
-
-
-composer require guzzlehttp/guzzle
-
+  ```
+  composer require guzzlehttp/guzzle
+```
 This command will add Guzzle HTTP client as a dependency to your project.
 
 Set Environment Variables:
@@ -32,7 +28,7 @@ Set Environment Variables:
 Create a copy of the .env.example file and name it .env. Update the following environment variables with your SMTP details:
 
 
-
+```
 MAIL_MAILER=smtp
 MAIL_HOST=sandbox.smtp.mailtrap.io
 MAIL_PORT=2525
@@ -41,7 +37,7 @@ MAIL_PASSWORD=your_mailtrap_password
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=r@rbt.com
 MAIL_FROM_NAME="${APP_NAME}"
-
+```
 Replace MAIL_HOST, MAIL_PORT, MAIL_USERNAME, and MAIL_PASSWORD with your Mailtrap SMTP credentials.
 
 Generate Application Key:
@@ -51,9 +47,9 @@ Generate Application Key:
 Running the Application
 
 Start the Laravel development server:
-
+```
 php artisan serve
-
+```
 Access the application in your web browser at http://localhost:8000.
 Functionality
 
